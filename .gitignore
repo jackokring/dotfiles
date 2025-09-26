@@ -1,5 +1,23 @@
 *
+
+# irregular non .config files
 !.gitignore
 !irregular
 !irregular/*
 
+# semi-regular .config files
+!starship.toml
+
+
+# regular .config directories
+!nemo
+!nemo/*
+!easyeffects
+!easyeffects/input
+!easyeffects/input/*
+!easyeffects/output
+!easyeffects/output/*
+
+!rofi
+!rofi/scripts
+!rofi/scripts/*

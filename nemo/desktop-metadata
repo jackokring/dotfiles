@@ -1,0 +1,17 @@
+[desktop-monitor-0]
+nemo-icon-view-keep-aligned=true
+nemo-icon-view-auto-layout=true
+nemo-icon-view-layout-timestamp=1720941372
+nemo-icon-view-zoom-level=2
+
+[Ventoy.volume]
+nemo-icon-position=98,42
+monitor=0
+icon-scale=1
+nemo-icon-position-timestamp=1718737147
+
+[thinclient_drives.volume]
+nemo-icon-position-timestamp=1720941373
+nemo-icon-position=56,12
+monitor=0
+icon-scale=1
