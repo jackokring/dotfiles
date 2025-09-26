@@ -13,11 +13,21 @@
 !nemo
 !nemo/*
 !easyeffects
-!easyeffects/input
+!easyeffects/*
 !easyeffects/input/*
-!easyeffects/output
 !easyeffects/output/*
 
 !rofi
-!rofi/scripts
+!rofi/*
 !rofi/scripts/*
+
+!nvim
+!nvim/*
+!nvim/after/*
+!nvim/after/ftplugin/*
+!nvim/lua/*
+!nvim/lua/config/*
+!nvim/lua/plugins/*
+!nvim/plugin/*
+!nvim/snips/*
+!nvim/spell/*
