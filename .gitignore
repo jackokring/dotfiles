@@ -5,10 +5,10 @@
 !irregular
 !irregular/*
 !irregular/.local
-!irregular.local/*
-!irregular.local/share/*
-!irregular.local/share/fonts/*
-!irregular.local/share/fonts/JetBrainsMono/*
+!irregular/.local/*
+!irregular/.local/share/*
+!irregular/.local/share/fonts/*
+!irregular/.local/share/fonts/JetBrainsMono/*
 
 # semi-regular .config files
 !starship.toml
