@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+# arch bash shell as the install is very different
+alias cat='bat'
