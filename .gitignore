@@ -1,38 +1,24 @@
-*
+**
+!.gitignore
 
 # irregular non .config files
-!.gitignore
-!irregular
-!irregular/*
-!irregular/.local
-!irregular/.local/*
-!irregular/.local/share/*
-!irregular/.local/share/fonts/*
-!irregular/.local/share/fonts/JetBrainsMono/*
+!irregular/
+!irregular/**
+# big and binary
+irregular/bin/
 
 # semi-regular .config files
 !starship.toml
 
-
 # regular .config directories
-!nemo
-!nemo/*
-!easyeffects
-!easyeffects/*
-!easyeffects/input/*
-!easyeffects/output/*
+!nemo/
+!nemo/**
 
-!rofi
-!rofi/*
-!rofi/scripts/*
+!easyeffects/
+!easyeffects/**
 
-!nvim
-!nvim/*
-!nvim/after/*
-!nvim/after/ftplugin/*
-!nvim/lua/*
-!nvim/lua/config/*
-!nvim/lua/plugins/*
-!nvim/plugin/*
-!nvim/snips/*
-!nvim/spell/*
+!rofi/
+!rofi/**
+
+!nvim/
+!nvim/**
