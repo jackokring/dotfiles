@@ -22,3 +22,7 @@ irregular/bin/
 
 !nvim/
 !nvim/**
+
+# dconf for desktop
+!dconf/
+!dconf/**
