@@ -3,7 +3,7 @@
 !**/
 
 # irregular non .config files
-!irregular/.*
+!irregular/.**
 
 # big and binary (apart from shell scripts)
 !irregular/bin/*.sh
