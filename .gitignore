@@ -11,6 +11,8 @@
 
 # irregular non .config files
 !/irregular/*
+# with .tmux modules
+!/irregular/.tmux/**
 
 # big and binary (apart from shell scripts)
 !/irregular/bin/*.sh
