@@ -1,12 +1,19 @@
 **
 !.gitignore
+# don't ignore the directory tree
+# although git won't commit an "empty" onr
 !**/
 
 # irregular non .config files
-!irregular/.**
+!irregular/*
 
 # big and binary (apart from shell scripts)
 !irregular/bin/*.sh
+
+# various bits of .local
+!irregular/.local/share/fonts/**
+!irregular/.local/share/nemo/**
+!irregular/.local/share/cinnamon/themes/**
 
 # semi-regular .config files
 !starship.toml
