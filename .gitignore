@@ -1,29 +1,24 @@
 **
 !.gitignore
+!**/
 
 # irregular non .config files
-!irregular/
-!irregular/**
+!irregular/.*
+
 # big and binary (apart from shell scripts)
 !irregular/bin/*.sh
-irregular/bin/
 
 # semi-regular .config files
 !starship.toml
 
 # regular .config directories
-!nemo/
 !nemo/**
 
-!easyeffects/
 !easyeffects/**
 
-!rofi/
 !rofi/**
 
-!nvim/
 !nvim/**
 
 # dconf for desktop
-!dconf/
 !dconf/**
