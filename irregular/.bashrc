@@ -134,8 +134,7 @@ alias tmux='tmux attach || tmux'
 alias dmenu='rofi -dmenu -normal-window'
 # what a package botch
 alias fd='fdfind'
-alias stow='pushd ~/.config && stow irregular && popd'
-alias restow='stow -D && stow'
+alias stow='pushd ~/.config && stow -R irregular && popd'
 
 v() {
 	# nvim via the st terminal (nerd font)
