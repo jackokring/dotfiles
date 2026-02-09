@@ -453,6 +453,9 @@ ${GREEN}gacp$NONE for git add/commit/push with optional message.\
 	export GEM_HOME="$HOME/gems"
 	export PATH="$HOME/gems/bin:$PATH"
 
+	# command spoof checker
+	#eval "$(tirith init)"
+
 	# starship (arm build on google drive)
 	eval "$(starship init bash)"
 
@@ -477,3 +480,6 @@ ${GREEN}gacp$NONE for git add/commit/push with optional message.\
 	fi
 	espeak-ng "What are you doing Dave? They're all dead Dave." &
 fi
+
+# opencode
+export PATH=/home/jacko/.opencode/bin:$PATH

@@ -34,5 +34,7 @@
 
 !/nvim/**
 
+!/keyd/**
+
 # dconf for desktop
 !/dconf/**
